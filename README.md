@@ -1,4 +1,7 @@
+https://github.com/adrientremblay/comp472-mp1
+
 # comp472-mp1
+
 ### To start off
 Make sure the goemotions.json is located in the same folder location as all the .ipynb files in this project.
 
