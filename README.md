@@ -20,7 +20,7 @@ Step 3) This is to create the figures for the label distribution:\
 1. Run all cells from top to bottom
 
 ### How to use Q3.ipynb
-There are three pretrained word embedding models: word2vec, Wikipedia Gigaword 2014 5th Ed and the Extracted Wikipedia Dump
+There are three pretrained word embedding models: word2vec, Wikipedia Gigaword 2014 5th Ed and the Fastest Wikipedia News from October 2017
 #### Preliminary Steps
 Step 1) Import the necessary libraries by running the first code cells under the section "Importing the libraries".\
 Step 2) Tokenize each of the posts. Run the cell to do so.\
