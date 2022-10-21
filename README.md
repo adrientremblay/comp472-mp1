@@ -20,17 +20,13 @@ Step 3) This is to create the figures for the label distribution:\
 1. Run all cells from top to bottom
 
 ### How to use Q3.ipynb
-There are three pretrained word embedding models: word2vec, Wikipedia 2014 and the Fast Wikipedia 
+There are three pretrained word embedding models: word2vec, Wikipedia Gigaword 2014 5th Ed and the Extracted Wikipedia Dump
 #### Preliminary Steps
 Step 1) Import the necessary libraries by running the first code cells under the section "Importing the libraries".\
 Step 2) Tokenize each of the posts. Run the cell to do so.\
-You can use the cell to check if the amount of tokenized posts is the same as the original one
-#### Using the word2vec embedder.
-Step 1) Go to the section "Word2Vec". Use the cell to load the word embedding model.\
-Step 2) To generate the embeddings for each posts in the \
-Step 3) Prepare \
-#### Using the Glove Wikipedia model 2014 word 
-Step 1) \
-
-#### Using the Fast Wikipedia model
-Step 1)\
+You can use the cell to check if the amount of tokenized posts is the same as the original one.
+#### Using a word embedder to train the model
+Step 1) Choose the word embedding model you wish to use by going to their associated section.\
+Step 2) To generate the word embeddings, click the nodes in order in the section "Preparing the Data".\
+Step 3) To train the models, click the nodes in order in the section "Training the models".\
+Step 4) To get the performance metrics, click the nodes in order in the section "Evaluating the models".
