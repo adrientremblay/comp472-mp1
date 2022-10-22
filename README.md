@@ -23,7 +23,7 @@ Step 3) This is to create the figures for the label distribution:\
 There are three pretrained word embedding models: word2vec, Wikipedia Gigaword 2014 5th Ed and the Fastest Wikipedia News from October 2017
 #### Preliminary Steps
 Step 1) Import the necessary libraries by running the first code cells under the section "Importing the libraries".\
-Step 2) Tokenize each of the posts. Run the cell to do so.\
+Step 2) Tokenize each of the posts. Run the cell in order in the section "Generate the tokenized words" to do so.\
 You can use the cell to check if the amount of tokenized posts is the same as the original one.
 #### Using a word embedder to train the model
 Step 1) Choose the word embedding model you wish to use by going to their associated section.\
