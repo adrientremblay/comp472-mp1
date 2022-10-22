@@ -123,6 +123,11 @@ Base MLP Sentiments
 weighted avg       0.54      0.55      0.54     34350
 
 Top MLP Emotions
+top_mlp_sentiments_param = {
+    'solver': ["adam", "sgd"],
+    'hidden_layer_sizes' : [(10,5),(15,10)],
+    'activation' : ["relu", "tanh", "identity"]
+}
 
 [[  807    25     4     0     1     0     0     4     0     0     0     2
       0     0     0    50     0    22    59     0  1114     1     0     0
@@ -245,6 +250,11 @@ Top MLP Emotions
 weighted avg       0.29      0.37      0.25     34350
 
 Top MLP Sentiments
+top_mlp_sentiments_param = {
+    'solver': ["adam", "sgd"],
+    'hidden_layer_sizes' : [(10,5),(15,10)],
+    'activation' : ["relu", "tanh", "identity"]
+}
 
 [[ 387  514 2099  795]
  [ 106 3165 3200 1349]
@@ -263,7 +273,7 @@ Top MLP Sentiments
 weighted avg       0.52      0.51      0.50     34350
 
 GIGAWORD
-
+==========================WORD EMBEDDING GIGAWORD WIKIPEDIA 2014 5TH ED===========================
 Base MLP Emotions
 
 [[  701    17     3     3     2     3     0     3     2     1     0     5
@@ -404,7 +414,7 @@ Base MLP Sentiments
    macro avg       0.45      0.41      0.41     34199
 weighted avg       0.47      0.47      0.46     34199
 
-FASTEST_WIKI
+==========================WORD EMBEDDING FASTEST WIKIPEDIA 2017===========================
 
 Base MLP Emotions
 
