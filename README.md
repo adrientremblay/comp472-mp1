@@ -14,10 +14,20 @@ Step 3) This is to create the figures for the label distribution:\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.2) To get the pie chart for the emotions distributions, run the Cell 6. This will also save the figure as png in the same folder as Q1.inpynb.
 
 ### How to use Q2(2.1-2.4).ipynb
-1. Run all cells from top to bottom
+1. Run first cell to import necessary libraries
+2. Run cell to read the data JSON file and extract an array for the sentences, emotions, and sentiments
+3. Run cells to run the word vectorizer which convers the array of sentences to an array of vectorized words
+4. Run cell to split the data set into training, and testing sets
+5. Run the cells to create base and top (optimized) classifiers for all the different types
+6. Run the cells to test each classifier using the test sets, and generate the confusion matrix and classification report metrics (which are printed)
 
 ### How to use Q2(2.5).ipynb
-1. Run all cells from top to bottom
+1. Run first cell to import necessary libraries
+2. Run cell to read the data JSON file and extract an array for the sentences, emotions, and sentiments
+3. Run cells to run the word vectorizer which convers the array of sentences to an array of vectorized words
+4. Run cell to split the data set into training, and testing sets
+5. Run the cells to create base and top (optimized) classifiers for all the different types
+6. Run the cells to test each classifier using the test sets, and generate the confusion matrix and classification report metrics (which are printed)
 
 ### How to use Q3.ipynb
 There are three pretrained word embedding models: word2vec, Wikipedia Gigaword 2014 5th Ed and the Fastest Wikipedia News from October 2017
